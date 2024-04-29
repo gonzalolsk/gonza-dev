@@ -5,7 +5,7 @@ export default function IntroPage(){
 if(!v) return null;
     return(
         <div className="pt-20">
-            <h4 className="bg-primary-700 rounded-md p-4">Hello <b className="capitalize">{v}</b>, welcome to my portfolio.</h4>           
+            <h4 className="bg-primary-700 text-white rounded-md p-4">Hello <b className="capitalize">{v}</b>, welcome to my portfolio.</h4>           
         </div>
             
     )    
