@@ -26,9 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        {/* {intro}         */}
+        {intro}        
         {children}
-        {/* {chat} */}
+        {chat}
       </body>
     </html>
   );
