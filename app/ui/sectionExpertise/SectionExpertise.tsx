@@ -1,9 +1,9 @@
 export default function SectionExpertise(){
     return(
-        <section id="expertise" className="section">
+        <section id="expertise" className="section mb-64">
         <h2 className="text-4xl font-bold text-center mb-20"> Full Stack Web Developer</h2>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
 
       <div className="card bg-slate-800 p-10">
           <h3 className="text-2xl text-red-400">PHP</h3>

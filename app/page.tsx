@@ -7,8 +7,8 @@ export default function Home() {
   
   return (
     <>  
-      <main className="flex flex-col justify-between bg-slate-300 dark:bg-[#232325] text-slate-800 dark:text-slate-50 " id="home">
-        <div className="scroll-container">
+      <main className="flex flex-col justify-between bg-slate-200 dark:bg-[#232325] text-slate-800 dark:text-slate-50 " id="home">
+        <div className="scroll-container md:p-0 p-6">
           <SectionWelcome />
           <SectionAbout />
           <SectionExpertise />

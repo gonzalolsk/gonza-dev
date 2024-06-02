@@ -59,3 +59,10 @@ main{
   justify-content: center;
   scroll-behavior: smooth;
 }
+
+@media(max-width: 992px){
+  .section{
+    height: unset;
+    min-height: 100vh;
+  }
+}

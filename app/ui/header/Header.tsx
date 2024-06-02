@@ -21,9 +21,9 @@ const Header = () => {
                     <li>
                         <a href="#expertise">Expertise</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#proyects">Proyects</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
 

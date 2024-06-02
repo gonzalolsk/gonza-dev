@@ -54,11 +54,14 @@ export default function ChatPage(){
 
     return(
     <>
-        <button id="chat-button" className="fixed bottom-4 right-4 z-10 bg-slate-500 text-white p-4 rounded-full" onClick={() => document.getElementById('opened-chat')?.classList.toggle('hidden')}>
+        <button 
+        id="chat-button" 
+        className="fixed bottom-4 right-6 z-10 bg-slate-500 text-white p-4 rounded-full" 
+        onClick={() => document.getElementById('opened-chat')?.classList.toggle('hidden')}>
             Chat
         </button>
             
-        <section id="opened-chat" className="p-4 grid gap-4 bg-slate-600 fixed bottom-20 right-4 ">  
+        <section id="opened-chat" className="hidden p-4 grid gap-4 rounded bg-slate-600 fixed bottom-20 right-6 bg-opacity-95">  
             <article id="msg-box" className="grid gap-4 max-h-[320px] h-[320px] items-start overflow-y-auto">
                 {messages.map(message => (
                     <div key={message.id} className={` p-4 rounded-3xl bg-slate-700 text-white w-fit ${message.owner === 'user' ? 'bg-slate-900 ml-auto rounded-br-none' : 'rounded-bl-none' }`}>
