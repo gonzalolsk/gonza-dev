@@ -13,7 +13,7 @@ const Header = () => {
             <nav>
                 <ul className="flex gap-10">
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="#welcome">Home</a>
                     </li>
                     <li>
                         <a href="#about">About</a>
