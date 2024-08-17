@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function SectionWelcome(){
     return(
-        <section id="welcome" className={`section mt-20 `}>
+        <section id="welcome" className={`section `}>
             <article className="text-center">
                 <h1 className="text-5xl font-bold">HEY, I´M GONZALO LORENZO</h1>
                 <p className="text-2xl ">Full Stack Web Developer</p>

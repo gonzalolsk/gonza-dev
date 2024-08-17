@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from "react";
+import { IoSunnyOutline, IoMoon  } from "react-icons/io5";
 
 
 const ThemeToggle = () => {
@@ -37,8 +38,8 @@ const ThemeToggle = () => {
                 
             
             ></span>
-                <span>🌞</span>
-                <span>🌚</span>
+                <span><IoSunnyOutline color="yellow" size={25} /></span>
+                <span><IoMoon color="black" size={25}/></span>
             </button>
         </div>
     );

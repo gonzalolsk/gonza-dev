@@ -49,7 +49,7 @@ main{
 }
 .section{
   width: 100%;
-  height: calc(100vh - 90px);
+  height: 100vh;
   text-align: center;
   scroll-snap-align: start;
   scroll-margin-top: 90px; /* agregamos el valor de height del header */

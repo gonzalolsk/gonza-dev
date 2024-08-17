@@ -8,7 +8,7 @@ export default async function middleware(request: NextRequest) {
     const searchParams = request.nextUrl.searchParams;
     const visitor = searchParams.get("v");
 
-    console.log('Visitor:', visitor);
+    // console.log('Visitor:', visitor);
 
     if(visitor) {
         request.nextUrl.searchParams.delete("v");
