@@ -4,8 +4,8 @@ export default function IntroPage(){
   const v = cookies().get('visitor')?.value;
 if(!v) return null;
     return(
-        <div className="pt-20">
-            <h4 className="bg-primary-700 text-white rounded-md p-4">Hello <b className="capitalize">{v}</b>, welcome to my portfolio.</h4>           
+        <div className="relative top-20 px-1 text-sm sm:text-base sm:px-20 bg-[#232325] dark:bg-slate-200 ">
+            <h4 className=" text-white dark:text-[#232325] px-4 py-2">Hello <b className="capitalize">{v}</b>, welcome to my portfolio.</h4>           
         </div>
             
     )    

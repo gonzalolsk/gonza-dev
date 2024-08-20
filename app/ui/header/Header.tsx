@@ -26,7 +26,7 @@ const Header = () => {
     ];
 
     return (
-        <header className=" fixed w-screen px-20 py-10 bg-[#00a388] h-20 flex items-center justify-between text-[#fff]">
+        <header className=" fixed z-10 w-screen px-1 pr-10 sm:px-20 py-10 bg-[#00a388] h-20 flex items-center justify-between text-[#fff]">
 
                 {/* Logo */}
                 <picture className="bg-[#00a388]">
@@ -77,14 +77,13 @@ const Header = () => {
 
                     {/* Mobile Navigation Items */}
                     {navItems.map(item => (
-                        <li
-                            key={item.id}
-                            className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
-                        >
-                            <a href={item.link}>
-                            {item.text}
-                            </a>
-                        </li>
+                        <a key={item.id} href={item.link}>
+                            <li
+                                className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
+                            >
+                                {item.text}
+                            </li>
+                        </a>
                     ))}
                 </ul>
         </header>
