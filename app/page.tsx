@@ -7,8 +7,9 @@ export default function Home() {
   
   return (
     <>  
-      <main className="flex flex-col justify-between bg-slate-200 dark:bg-[#232325] text-slate-800 dark:text-slate-50 " id="home">
+      <main className="flex flex-col justify-between bg-slate-200 dark:bg-[#2c1338] text-slate-800 dark:text-slate-50 " id="home">
           <SectionWelcome />
+          <div className='diagonal-border bg-white dark:bg-slate-400'></div>
           <SectionAbout />
           <SectionExpertise />
       </main>

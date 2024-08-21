@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
+import laptop from "@/public/images/laptop.gif"
 
 export default function SectionWelcome(){
     return(
-        <section id="welcome" className={`section `}>
+        <section id="welcome" className={`section mt-[80px] `}>
             <article className="text-center">
                 <h1 className="text-5xl font-bold">HEY, I´M GONZALO LORENZO</h1>
                 <p className="text-2xl ">Full Stack Web Developer</p>
@@ -14,6 +16,9 @@ export default function SectionWelcome(){
                 >
                         Download my CV!
                 </Link>
+            </article>
+            <article>
+                <Image src={laptop} alt="Laptop" className="mx-auto" />
             </article>
         </section>
     )

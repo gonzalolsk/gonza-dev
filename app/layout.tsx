@@ -2,15 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./ui/header/Header";
+import logo from "@/public/images/logo.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Gonza Dev Portfolio",
   description: "Welcome to my portfolio",
-  icons: {
-    icon: "/public/images/logo.png"
-  },
 };
 
 export default function RootLayout({
