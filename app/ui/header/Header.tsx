@@ -78,7 +78,7 @@ const Header = () => {
 
                     {/* Mobile Navigation Items */}
                     {navItems.map(item => (
-                        <a key={item.id} href={item.link}>
+                        <a key={item.id} href={item.link} onClick={handleNav}>
                             <li
                                 className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
                             >
