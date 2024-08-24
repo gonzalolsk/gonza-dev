@@ -1,4 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Portfolio (Beta)
+
+Welcome to my personal portfolio project! This is the beta version of my online profile, showcasing my work, skills, and a few interactive features.
+
+## Features
+
+- **Online Profile**: A comprehensive overview of my professional background and skills.
+- **AI Chat Bot**: An interactive chat bot powered by artificial intelligence to assist visitors.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building fast and user-friendly web applications.
+- **Vercel**: Deployment and hosting platform for modern web projects.
+
+## Deployed at 
+- https://gonza-dev.vercel.app/
+
 
 ## Getting Started
 
