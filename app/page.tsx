@@ -1,6 +1,7 @@
 import SectionWelcome from './ui/sectionWelcome/SectionWelcome';
 import SectionAbout from './ui/sectionAbout/sectionAbout';
 import SectionExpertise from './ui/sectionExpertise/SectionExpertise';
+import Contact from './ui/contact/Contact';
 
 export default function Home() {
   
@@ -12,6 +13,7 @@ export default function Home() {
           <div className='diagonal-border bg-white dark:bg-slate-400'></div>
           <SectionAbout />
           <SectionExpertise />
+          <Contact />
       </main>
     </>
   );

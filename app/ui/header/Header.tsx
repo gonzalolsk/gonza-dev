@@ -22,6 +22,7 @@ const Header = () => {
         { id: 1, text: 'Home', link: '#welcome' },
         { id: 2, text: 'About', link: '#about' },
         { id: 3, text: 'Expertise', link: '#expertise' },
+        { id: 4, text: 'Contact', link: '#contact' },
         // { id: 4, text: 'Proyects', link: '#proyects' },
     ];
 
