@@ -17,7 +17,7 @@ const ShowScrollProgress: React.FC = () => {
   }, []);
 
   return (
-    <div className="fixed top-[80px] left-0 w-full h-1 bg-gray-200 z-50">
+    <div className="fixed top-[80px] left-0 w-full h-1 bg-gray-200 z-2">
       <div
         className="h-full bg-blue-500"
         style={{ width: `${scrollProgress}%` }}
