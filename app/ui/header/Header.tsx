@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import logo from "@/public/images/logo-white.svg"
+import logo from "@/public/images/logo.png"
 import ThemeToggle from "../themeToggle/ThemeToggle";
 import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';

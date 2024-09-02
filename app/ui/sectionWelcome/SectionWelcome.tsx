@@ -18,9 +18,9 @@ export default function SectionWelcome(){
                         Download my CV!
                 </Link>
             </article>
-            <article>
+            {/* <article>
                 <Image src={laptop} alt="Laptop" className="mx-auto" />
-            </article>
+            </article> */}
         </section>
     )
 }
