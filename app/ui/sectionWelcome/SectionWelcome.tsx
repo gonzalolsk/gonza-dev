@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import laptop from "@/public/images/laptop.gif"
+import style from "./sectionWelcome.module.css"
 
 export default function SectionWelcome(){
     return(
-        <section id="welcome" className={`section mt-[80px] `}>
+        <section id="welcome" className={`${style.sectionHome} section mt-[80px] h-auto p-6`}>
             <article className="text-center">
                 <h1 className="text-5xl font-bold">HEY, I´M GONZALO LORENZO</h1>
                 <p className="text-2xl ">Full Stack Web Developer</p>

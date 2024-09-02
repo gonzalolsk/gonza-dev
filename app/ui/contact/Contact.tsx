@@ -35,7 +35,7 @@ function Contact() {
     ];
 
     return (
-        <section id="contact" className="section w-full px-3 pb-20 bg-gradient-to-r from-green-500 to-purple-500 text-black dark:text-white dark:bg-slate-700">
+        <section id="contact" className="section w-full px-3 pb-20 pt-10 md:pt-0 bg-gradient-to-r from-green-500 to-purple-500 text-black dark:text-white dark:bg-slate-700">
             <h2 className="text-3xl font-bold mb-20 text-center">Reach out!</h2>
             <div className="flex flex-col md:flex-row md:space-x-20 space-y-6 md:space-y-0">
                 {items.map((item, i) => (

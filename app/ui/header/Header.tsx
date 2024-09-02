@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import logo from "@/public/images/logo.png"
+import logo from "@/public/images/logo-white.svg"
 import ThemeToggle from "../themeToggle/ThemeToggle";
 import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
@@ -27,11 +27,11 @@ const Header = () => {
     ];
 
     return (
-        <header className=" fixed z-10 w-screen px-1 pr-10 sm:px-20 py-10 bg-[#00a388] h-20 flex items-center justify-between text-[#fff]">
+        <header className=" fixed z-10 w-screen px-1 pr-10 sm:px-20 py-10 bg-secondColor h-20 flex items-center justify-between text-[#fff]">
 
                 {/* Logo */}
-                <picture className="bg-[#00a388]">
-                    <Image className="rounded-full mw-100" src={logo.src} alt="logo" width={150} height={150} />
+                <picture>
+                    <Image className=" mw-100" src={logo.src} alt="logo" width={150} height={150} />
                 </picture>
 
                 {/* Desktop Navigation */}

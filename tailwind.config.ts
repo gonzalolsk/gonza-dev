@@ -19,6 +19,12 @@ const config: Config = {
       animation: {
         shake: 'shake 1s infinite',
       },
+      colors: {
+        firstColor: '#232325', //black
+        secondColor: '#0c3056',//blue
+        thirdColor: '#00a388',//green
+        // fourthColor: '#2c1338', //purple
+      }
     },
   },
   plugins: [],

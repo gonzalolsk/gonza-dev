@@ -1,0 +1,6 @@
+.sectionHome{
+    background-image: url('../../../public/images/waves.svg');
+    background-position: 0 35vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
