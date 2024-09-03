@@ -79,7 +79,7 @@ export default function ChatPage() {
             </button>
 
             {isChatOpen && (
-                <section id="opened-chat" className={`z-10 p-4 grid gap-4 rounded bg-slate-900 fixed bottom-16 right-6 bg-opacity-95 max-w-xl`}>
+                <section id="opened-chat" className={`z-10 p-4 grid gap-4 rounded bg-slate-900 fixed bottom-16 right-0 sm:right-6 bg-opacity-95  xs:max-w-xl`}>
                     <article id="msg-box" className={`${style.scrollbar} grid gap-4 max-h-[320px] h-[320px] items-start overflow-y-auto p-4`}>
                         {messages.map(message => (
                             <div key={message.id} className={`p-4 rounded-3xl text-white w-fit ${message.owner === 'user' ? 'bg-thirdColor ml-auto rounded-br-none' : 'bg-secondColor rounded-bl-none'}`}>
